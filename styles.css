@@ -8,14 +8,14 @@ body {
 }
 
 h1, h2 {
-    color: #FF5722; /* Orange for headings */
+    color: #f63b3b; /* Orange for headings */
 }
 
 /* Header Section */
 header {
     background-color: #424242; /* Darker gray for header */
     color: white;
-    padding: 20px;
+    padding: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,6 +23,17 @@ header {
 
 header .logo h1 {
     margin: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center; /* Aligns the logo and title vertically */
+}
+
+.logo-image {
+    width: 80px; /* Adjust the width of your logo */
+    height: auto;
+    margin-right: 5px; /* Space between logo and title */
 }
 
 nav ul {
@@ -43,20 +54,24 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #FF5722; /* Highlight in orange when hovering */
+    color: #f63b3b; /* Highlight in orange when hovering */
 }
 
 /* Introduction Section */
+
 #intro {
-    background-color: #f5f5f5; /* Lighter gray for intro */
-    color: #333;
-    padding: 80px 20px;
+    background-image: url('bg1.png'); /* Add your image path here */
+    background-size: cover; /* Ensure the image covers the whole section */
+    background-position: center; /* Center the image */
+    padding: 100px;
     text-align: center;
+    color: black; /* Optional: Set text color to white for better contrast */
 }
+
 
 #intro h2 {
     font-size: 36px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 #intro p {
@@ -68,7 +83,7 @@ nav ul li a:hover {
 }
 
 #intro button {
-    background-color: #FF5722; /* Orange button */
+    background-color: #f63b3b; /* Orange button */
     color: white;
     border: none;
     padding: 12px 25px;
@@ -78,7 +93,7 @@ nav ul li a:hover {
 }
 
 #intro button:hover {
-    background-color: #FF3D00; /* Darker orange on hover */
+    background-color: #f63b3b; /* Darker orange on hover */
 }
 
 /* Login and Sign Up Page Styles */
@@ -104,7 +119,7 @@ nav ul li a:hover {
 }
 
 .form-container button {
-    background-color: #FF5722; /* Orange button */
+    background-color: #f63b3b; /* Orange button */
     color: white;
     border: none;
     padding: 12px 25px;
@@ -114,7 +129,7 @@ nav ul li a:hover {
 }
 
 .form-container button:hover {
-    background-color: #FF3D00; /* Darker orange on hover */
+    background-color: #f63b3b; /* Darker orange on hover */
 }
 
 .switch a {
@@ -131,7 +146,7 @@ nav ul li a:hover {
 footer {
     background-color: #424242; /* Dark gray for footer */
     color: white;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
 }
 
