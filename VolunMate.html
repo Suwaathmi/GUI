@@ -76,6 +76,30 @@
         </div>
     </section>
 
+    <!-- Dashboard Section -->
+    <section id="dashboard" style="display: none;">
+        <h2>Welcome to Your Dashboard</h2>
+        <p>Hello, <span id="user-name">User</span>! Here's an overview of your VolunMate activity.</p>
+    
+        <div class="dashboard-container">
+            <div class="dashboard-item">
+                <h3>Your Profile</h3>
+                <p>View and update your personal information.</p>
+                <button onclick="alert('Profile section coming soon!')">Go to Profile</button>
+            </div>
+            <div class="dashboard-item">
+                <h3>Upcoming Opportunities</h3>
+                <p>Check out the latest volunteering opportunities near you.</p>
+                <button onclick="alert('Opportunities section coming soon!')">View Opportunities</button>
+            </div>
+            <div class="dashboard-item">
+                <h3>Progress Tracker</h3>
+                <p>Monitor your contributions and achievements.</p>
+                <button onclick="alert('Progress tracker coming soon!')">View Progress</button>
+            </div>
+        </div>
+    </section>
+
     <!-- Footer Section -->
     <footer>
         <p>© 2025 VolunMate. All rights reserved.</p>
@@ -87,9 +111,16 @@
             document.getElementById('intro').style.display = 'none';
             document.getElementById('login').style.display = 'none';
             document.getElementById('signup').style.display = 'none';
+            document.getElementById('dashboard').style.display = 'none';
 
             // Show the selected page
             document.getElementById(page).style.display = 'block';
+
+             // If the page is dashboard, update the user's name dynamically
+            if (page === 'dashboard') {
+            const userName = document.getElementById('name')?.value || 'User'; // Get the name from the signup form, if available
+            document.getElementById('user-name').textContent = userName; // Update the welcome message in the dashboard
+            }
         }
 
         // Show the Introduction page by default
