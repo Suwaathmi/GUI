@@ -17,7 +17,7 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#intro">Home</a></li>
+                <li><a href="#intro" onclick="showPage('intro')">Home</a></li>
                 <li><a href="#login" onclick="showPage('login')">Login</a></li>
                 <li><a href="#signup" onclick="showPage('signup')">Sign Up</a></li>
             </ul>
@@ -25,7 +25,7 @@
     </header>
 
     <!-- Introduction Section -->
-    <section id="intro">
+    <section id="intro" style="display: none;">
         <h2>Welcome to VolunMate!</h2>
         <p>VolunMate is a platform designed to connect passionate volunteers with organizations in need of help. Whether you are looking to contribute your time or you are an organization seeking support, VolunMate makes it easier to find the right opportunities and make a meaningful impact.</p>
         <button onclick="showPage('login')">Let's Go</button>
@@ -104,6 +104,7 @@
 
     <!-- Footer Section -->
     <footer>
+        <h5>“Everybody can be great because everybody can serve. You only need a heart full of grace.” ~ Martin Luther King, Jr.</h5>
         <p>© 2025 VolunMate. All rights reserved.</p>
     </footer>
 

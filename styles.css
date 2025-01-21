@@ -7,8 +7,15 @@ body {
     color: #333; /* Dark gray text */
 }
 
+h5{
+    font-size: 15px;
+    color: white;
+    font-style: oblique;
+}
+
 h1, h2 {
     color: #f63b3b; /* Orange for headings */
+    text-align: center;
 }
 
 /* Header Section */
@@ -16,6 +23,7 @@ header {
     background-color: #424242; /* Darker gray for header */
     color: white;
     padding: 5px;
+    padding-right: 1cm;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -61,17 +69,25 @@ nav ul li a:hover {
 
 #intro {
     background-image: url('bg1.png'); /* Add your image path here */
-    background-size: cover; /* Ensure the image covers the whole section */
+    background-size:cover; /* Ensure the image covers the whole section */
     background-position: center; /* Center the image */
     padding: 100px;
     text-align: center;
-    color: black; /* Optional: Set text color to white for better contrast */
+    color: black;
 }
 
+#login,#signup {
+    background-image: url('bg1.png'); /* Add your image path here */
+    background-size:cover; /* Ensure the image covers the whole section */
+    background-position: center; /* Center the image */
+    padding: 5px;
+    color: black;
+}
 
 #intro h2 {
     font-size: 36px;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 #intro p {
@@ -146,6 +162,7 @@ nav ul li a:hover {
 footer {
     background-color: #424242; /* Dark gray for footer */
     color: white;
+    font-size: 10px;
     padding: 10px;
     text-align: center;
 }
