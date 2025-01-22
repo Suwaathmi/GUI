@@ -1,0 +1,118 @@
+﻿<Window x:Class="VolunMate.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="VolunMate - Volunteer Management System" Height="600" Width="800" Background="#E0E0E0">
+    <Grid>
+        <!-- Header Section -->
+        <Border Background="#424242" Height="80" VerticalAlignment="Top">
+            <Grid>
+                <Image Source="C:\Users\Suwaathmi Ravindran\OneDrive\Desktop\VolunMate\logo.png" Width="50" Height="50" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="11,0,0,0" RenderTransformOrigin="1.12,0.721"/>
+                <TextBlock Text="VolunMate" Foreground="#f63b3b" FontSize="28" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="66,20,0,0"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,20,0">
+                    <Button Content="Home" Background="Transparent" Foreground="White" BorderBrush="Transparent" FontWeight="Bold" Margin="0,0,10,0" Click="Home_Click"/>
+                    <Button Content="Login" Background="Transparent" Foreground="White" BorderBrush="Transparent" FontWeight="Bold" Margin="0,0,10,0" Click="Login_Click"/>
+                    <Button Content="Sign Up" Background="Transparent" Foreground="White" BorderBrush="Transparent" FontWeight="Bold" Click="Signup_Click"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <!-- Main Content -->
+        <Grid Name="ContentGrid" Margin="20,100,20,20">
+            <!-- Introduction Section -->
+            <Grid Margin="-20,-25,-20,0">
+                <Grid.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="C:\Users\Suwaathmi Ravindran\OneDrive\Desktop\VolunMate\bg1.png"/>
+                </Grid.Background>
+            </Grid>
+
+            <StackPanel Name="IntroPanel">
+                <TextBlock Text="Welcome to VolunMate!" FontSize="24" HorizontalAlignment="Center" FontWeight="Bold" Foreground="#f63b3b" Margin="0,0,0,10"/>
+                <TextBlock Text="VolunMate is a platform designed to connect passionate volunteers with organizations in need of help. Whether you are looking to contribute your time or you are an organization seeking support, VolunMate makes it easier to find the right opportunities and make a meaningful impact."
+                           FontSize="16" HorizontalAlignment="Center" TextAlignment="Center" TextWrapping="Wrap" Foreground="#333" Margin="0,0,0,20" Width="505"/>
+                <Button Content="Let's Go" Background="#f63b3b" Foreground="White" FontWeight="Bold" Padding="10,5" Width="120" Height="30" Click="Login_Click" RenderTransformOrigin="0.543,3.134">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border Background="{TemplateBinding Background}" BorderBrush="Gray" BorderThickness="2" CornerRadius="5">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+            </StackPanel>
+
+            <!-- Login Section -->
+            <StackPanel Name="LoginPanel" Visibility="Hidden">
+                <TextBlock Text="Login" FontSize="24" FontWeight="Bold" Foreground="#f63b3b" Margin="0,0,0,20"/>
+
+                <!-- Border for the login panel with curved corners -->
+                <Border Background="White" MaxWidth="400" BorderBrush="White" BorderThickness="2" CornerRadius="20" Padding="20">
+                    <StackPanel VerticalAlignment="Top">
+                        <TextBlock Text="Email Address:" FontSize="14" FontWeight="Bold" Padding="0,5"/>
+                        <TextBox Width="300" Margin="0,10,0,20" Padding="5"/>
+
+                        <TextBlock Text="Password:" FontSize="14" FontWeight="Bold" Padding="0,5"/>
+                        <PasswordBox Width="300" Margin="0,10,0,20" Padding="5"/>
+
+                        <Button Content="Login" Background="#f63b3b" Foreground="White" Padding="10,5" FontWeight="Bold" Width="150" Height="30" HorizontalAlignment="Center">
+                            <Button.Template>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Background="{TemplateBinding Background}" BorderBrush="Gray" BorderThickness="2" CornerRadius="5">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Button.Template>
+                        </Button>
+
+                        <TextBlock Text="Don't have an account? " Margin="0,10,0,0" FontSize="14" TextWrapping="Wrap" HorizontalAlignment="Center">
+                <Run Text="Sign up here" Foreground="#f63b3b" TextDecorations="Underline" Cursor="Hand" MouseDown="Signup_Click"/>
+                        </TextBlock>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+
+
+            <!-- Sign Up Section -->
+            <StackPanel Name="SignupPanel" Visibility="Hidden">
+                <TextBlock Text="Sign Up" FontSize="24" FontWeight="Bold" Foreground="#f63b3b" Margin="0,0,0,20"/>
+                <Border Background="White" MaxWidth="400" BorderBrush="White" BorderThickness="2" CornerRadius="20" Padding="20">
+                    <StackPanel Background="White" MaxWidth="400" VerticalAlignment="Top">
+                        <TextBlock Text="Full Name:" FontSize="14" FontWeight="Bold" Padding="0,5"/>
+                        <TextBox Width="300" Margin="0,10,0,20" Padding="5"/>
+
+                        <TextBlock Text="Email Address:" FontSize="14" FontWeight="Bold" Padding="0,5"/>
+                        <TextBox Width="300" Margin="0,10,0,20" Padding="5"/>
+
+                        <TextBlock Text="Password:" FontSize="14" FontWeight="Bold" Padding="0,5"/>
+                        <PasswordBox Width="300" Margin="0,10,0,20" Padding="5"/>
+
+                        <TextBlock Text="Role:" FontSize="14" FontWeight="Bold" Padding="0,5"/>
+                        <ComboBox Width="300" Margin="0,10,0,20" Padding="5">
+                            <ComboBoxItem Content="Volunteer"/>
+                            <ComboBoxItem Content="Organization"/>
+                        </ComboBox>
+
+                        <Button Content="Sign Up" Background="#f63b3b" Foreground="White" Padding="10,5" FontWeight="Bold" Width="150" Height="30" HorizontalAlignment="Center">
+                            <Button.Template>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Background="{TemplateBinding Background}" BorderBrush="Gray" BorderThickness="2" CornerRadius="5">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Button.Template>
+                        </Button>
+                        <TextBlock Text="Already have an account? " Margin="0,10,0,0" FontSize="14" TextWrapping="Wrap" HorizontalAlignment="Center">
+                        <Run Text="Login here" Foreground="#f63b3b" TextDecorations="Underline" Cursor="Hand" MouseDown="Login_Click"/>
+                        </TextBlock>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="0" Background="#424242" Height="40" Margin="0,544,0,0" VerticalAlignment="bottom">
+            <TextBlock Text="“Everybody can be great because everybody can serve. You only need a heart full of grace.” ~ Martin Luther King, Jr." VerticalAlignment="Top" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold" Margin="0,7,0,0"/>
+            <TextBlock FontSize="10" Text="© 2025 VolunMate - All rights reserved" VerticalAlignment="Top" HorizontalAlignment="Center" Foreground="White" Margin="0,23,0,0"/>
+        </Grid>
+
+    </Grid>
+</Window>
+
