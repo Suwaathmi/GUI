@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Suwaathmi Ravindran\\OneDrive\\Desktop\\VolunMate_web-master\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F75371CE-B486-480C-84B6-7A5D10D68F51}|VolunMate_web\\VolunMate_web.csproj|c:\\users\\suwaathmi ravindran\\onedrive\\desktop\\volunmate_web-master\\volunmate_web\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F75371CE-B486-480C-84B6-7A5D10D68F51}|VolunMate_web\\VolunMate_web.csproj|solutionrelative:volunmate_web\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F75371CE-B486-480C-84B6-7A5D10D68F51}|VolunMate_web\\VolunMate_web.csproj|c:\\users\\suwaathmi ravindran\\onedrive\\desktop\\volunmate_web-master\\volunmate_web\\models\\dtos\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F75371CE-B486-480C-84B6-7A5D10D68F51}|VolunMate_web\\VolunMate_web.csproj|solutionrelative:volunmate_web\\models\\dtos\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F75371CE-B486-480C-84B6-7A5D10D68F51}|VolunMate_web\\VolunMate_web.csproj|c:\\users\\suwaathmi ravindran\\onedrive\\desktop\\volunmate_web-master\\volunmate_web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F75371CE-B486-480C-84B6-7A5D10D68F51}|VolunMate_web\\VolunMate_web.csproj|solutionrelative:volunmate_web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F75371CE-B486-480C-84B6-7A5D10D68F51}|VolunMate_web\\VolunMate_web.csproj|c:\\users\\suwaathmi ravindran\\onedrive\\desktop\\volunmate_web-master\\volunmate_web\\migrations\\20250302114053_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F75371CE-B486-480C-84B6-7A5D10D68F51}|VolunMate_web\\VolunMate_web.csproj|solutionrelative:volunmate_web\\migrations\\20250302114053_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F75371CE-B486-480C-84B6-7A5D10D68F51}|VolunMate_web\\VolunMate_web.csproj|c:\\users\\suwaathmi ravindran\\onedrive\\desktop\\volunmate_web-master\\volunmate_web\\migrations\\20250228162958_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F75371CE-B486-480C-84B6-7A5D10D68F51}|VolunMate_web\\VolunMate_web.csproj|solutionrelative:volunmate_web\\migrations\\20250228162958_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventDto.cs",
+              "DocumentMoniker": "C:\\Users\\Suwaathmi Ravindran\\OneDrive\\Desktop\\VolunMate_web-master\\VolunMate_web\\Models\\DTOs\\EventDto.cs",
+              "RelativeDocumentMoniker": "VolunMate_web\\Models\\DTOs\\EventDto.cs",
+              "ToolTip": "C:\\Users\\Suwaathmi Ravindran\\OneDrive\\Desktop\\VolunMate_web-master\\VolunMate_web\\Models\\DTOs\\EventDto.cs",
+              "RelativeToolTip": "VolunMate_web\\Models\\DTOs\\EventDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T12:02:36.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\Suwaathmi Ravindran\\OneDrive\\Desktop\\VolunMate_web-master\\VolunMate_web\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "VolunMate_web\\Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\Suwaathmi Ravindran\\OneDrive\\Desktop\\VolunMate_web-master\\VolunMate_web\\Controllers\\EventController.cs",
+              "RelativeToolTip": "VolunMate_web\\Controllers\\EventController.cs",
+              "ViewState": "AgIAALUAAAAAKDMzMzP7v8EAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T12:01:55.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250302114053_init.cs",
+              "DocumentMoniker": "C:\\Users\\Suwaathmi Ravindran\\OneDrive\\Desktop\\VolunMate_web-master\\VolunMate_web\\Migrations\\20250302114053_init.cs",
+              "RelativeDocumentMoniker": "VolunMate_web\\Migrations\\20250302114053_init.cs",
+              "ToolTip": "C:\\Users\\Suwaathmi Ravindran\\OneDrive\\Desktop\\VolunMate_web-master\\VolunMate_web\\Migrations\\20250302114053_init.cs",
+              "RelativeToolTip": "VolunMate_web\\Migrations\\20250302114053_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T11:40:54.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Suwaathmi Ravindran\\OneDrive\\Desktop\\VolunMate_web-master\\VolunMate_web\\appsettings.json",
+              "RelativeDocumentMoniker": "VolunMate_web\\appsettings.json",
+              "ToolTip": "C:\\Users\\Suwaathmi Ravindran\\OneDrive\\Desktop\\VolunMate_web-master\\VolunMate_web\\appsettings.json",
+              "RelativeToolTip": "VolunMate_web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-02T11:38:24.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250228162958_initial.cs",
+              "DocumentMoniker": "C:\\Users\\Suwaathmi Ravindran\\OneDrive\\Desktop\\VolunMate_web-master\\VolunMate_web\\Migrations\\20250228162958_initial.cs",
+              "RelativeDocumentMoniker": "VolunMate_web\\Migrations\\20250228162958_initial.cs",
+              "ToolTip": "C:\\Users\\Suwaathmi Ravindran\\OneDrive\\Desktop\\VolunMate_web-master\\VolunMate_web\\Migrations\\20250228162958_initial.cs",
+              "RelativeToolTip": "VolunMate_web\\Migrations\\20250228162958_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T11:38:02.303Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

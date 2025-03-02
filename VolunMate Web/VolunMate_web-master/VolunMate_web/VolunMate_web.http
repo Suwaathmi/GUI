@@ -1,0 +1,6 @@
+@VolunMate_web_HostAddress = http://localhost:5150
+
+GET {{VolunMate_web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

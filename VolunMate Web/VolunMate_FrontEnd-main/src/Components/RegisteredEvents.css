@@ -1,0 +1,104 @@
+/* Registered Events Container */
+.registered-events {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header */
+  .header {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Upcoming and Completed Headers */
+  .upcoming-header,
+  .completed-header {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .upcoming-header {
+    color: #28a745; 
+  }
+  
+  .completed-header {
+    color: #dc3545;
+  }
+  
+  /* Event List */
+  .event-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Event Card */
+  .event-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background: #f8f9fa;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .event-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-card.completed {
+    background: #f8d7da; 
+  }
+  
+  /* Event Title */
+  .event-title {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Event Description */
+  .event-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  /* Event Date and Location */
+  .event-date,
+  .event-location {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 5px;
+  }
+  
+  /* Event Status */
+  .event-status {
+    font-size: 0.9rem;
+    color: #dc3545;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Loading and Error Messages */
+  .loading,
+  .error,
+  .no-events {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+  
+  .error {
+    color: #dc3545;
+  }
+  
+  .no-events {
+    color: #777;
+  }
