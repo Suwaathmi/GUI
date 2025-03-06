@@ -3,12 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\Suwaathmi Ravindran\\OneDrive\\Desktop\\VolunMate\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{ED63A700-0220-4E27-B1E4-E7B93948D462}|VolunMate\\VolunMate.csproj|c:\\users\\suwaathmi ravindran\\onedrive\\desktop\\volunmate\\volunmate\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED63A700-0220-4E27-B1E4-E7B93948D462}|VolunMate\\VolunMate.csproj|solutionrelative:volunmate\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Suwaathmi Ravindran\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ED63A700-0220-4E27-B1E4-E7B93948D462}|VolunMate\\VolunMate.csproj|c:\\users\\suwaathmi ravindran\\onedrive\\desktop\\volunmate\\volunmate\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{ED63A700-0220-4E27-B1E4-E7B93948D462}|VolunMate\\VolunMate.csproj|solutionrelative:volunmate\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED63A700-0220-4E27-B1E4-E7B93948D462}|VolunMate\\VolunMate.csproj|c:\\users\\suwaathmi ravindran\\onedrive\\desktop\\volunmate\\volunmate\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED63A700-0220-4E27-B1E4-E7B93948D462}|VolunMate\\VolunMate.csproj|solutionrelative:volunmate\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED63A700-0220-4E27-B1E4-E7B93948D462}|VolunMate\\VolunMate.csproj|c:\\users\\suwaathmi ravindran\\onedrive\\desktop\\volunmate\\volunmate\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED63A700-0220-4E27-B1E4-E7B93948D462}|VolunMate\\VolunMate.csproj|solutionrelative:volunmate\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED63A700-0220-4E27-B1E4-E7B93948D462}|VolunMate\\VolunMate.csproj|c:\\users\\suwaathmi ravindran\\onedrive\\desktop\\volunmate\\volunmate\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ED63A700-0220-4E27-B1E4-E7B93948D462}|VolunMate\\VolunMate.csproj|solutionrelative:volunmate\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +29,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Suwaathmi Ravindran\\OneDrive\\Desktop\\VolunMate\\VolunMate\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "VolunMate\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Suwaathmi Ravindran\\OneDrive\\Desktop\\VolunMate\\VolunMate\\MainWindow.xaml*",
-              "RelativeToolTip": "VolunMate\\MainWindow.xaml*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-22T10:11:06.128Z",
-              "EditorCaption": ""
+              "DocumentIndex": 1,
+              "Title": "XamlReader.cs",
+              "DocumentMoniker": "C:\\Users\\Suwaathmi Ravindran\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
+              "ToolTip": "C:\\Users\\Suwaathmi Ravindran\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALUBAAACAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T18:43:33.625Z",
+              "EditorCaption": " [Read Only]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "Dashboard.xaml",
+              "DocumentMoniker": "C:\\Users\\Suwaathmi Ravindran\\OneDrive\\Desktop\\VolunMate\\VolunMate\\Dashboard.xaml",
+              "RelativeDocumentMoniker": "VolunMate\\Dashboard.xaml",
+              "ToolTip": "C:\\Users\\Suwaathmi Ravindran\\OneDrive\\Desktop\\VolunMate\\VolunMate\\Dashboard.xaml",
+              "RelativeToolTip": "VolunMate\\Dashboard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-04T18:58:40.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dashboard.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Suwaathmi Ravindran\\OneDrive\\Desktop\\VolunMate\\VolunMate\\Dashboard.xaml.cs",
+              "RelativeDocumentMoniker": "VolunMate\\Dashboard.xaml.cs",
+              "ToolTip": "C:\\Users\\Suwaathmi Ravindran\\OneDrive\\Desktop\\VolunMate\\VolunMate\\Dashboard.xaml.cs",
+              "RelativeToolTip": "VolunMate\\Dashboard.xaml.cs",
+              "ViewState": "AgIAAEADAAAAAAAAAAAAAFEDAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T18:59:29.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Suwaathmi Ravindran\\OneDrive\\Desktop\\VolunMate\\VolunMate\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "VolunMate\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Suwaathmi Ravindran\\OneDrive\\Desktop\\VolunMate\\VolunMate\\MainWindow.xaml",
+              "RelativeToolTip": "VolunMate\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-22T10:11:06.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Suwaathmi Ravindran\\OneDrive\\Desktop\\VolunMate\\VolunMate\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "VolunMate\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Suwaathmi Ravindran\\OneDrive\\Desktop\\VolunMate\\VolunMate\\MainWindow.xaml.cs",
               "RelativeToolTip": "VolunMate\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAkwCoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAewBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T10:11:01.079Z"
+              "WhenOpened": "2025-01-22T10:11:01.079Z",
+              "EditorCaption": ""
             }
           ]
         }

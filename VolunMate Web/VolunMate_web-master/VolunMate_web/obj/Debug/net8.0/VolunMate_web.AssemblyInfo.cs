@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VolunMate_web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b41400d019508af49e1597efcdc9072f9aae4ee4")]
 [assembly: System.Reflection.AssemblyProductAttribute("VolunMate_web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VolunMate_web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
